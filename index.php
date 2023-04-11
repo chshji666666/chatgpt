@@ -1,4 +1,7 @@
 ﻿<?php
+include("../config/conn.php");
+include("../config/function.php");
+sesCheck();
 $type = "个人";
 //  if (substr($_SERVER["REMOTE_ADDR"],0,9)!="127.0.0.1"){
 //    if (strpos($_SERVER["HTTP_USER_AGENT"],"MicroMessenger")){
@@ -42,7 +45,7 @@ $type = "个人";
                     <h2 class="logo"><a class="links" id="clean" title="清空对话信息"><span class="logo-title">清空对话信息</span></a></h2>
                 </div>
                 <div class="header-logo">
-                    <h2 class="logo"><a class="links" href="https://github.com/dirk1983/chatgpt"><span class="logo-title">获取源码</span></a></h2>
+                    <h2 class="logo"><a class="links" href="http://www.promptcan.com/reg/"><span class="logo-title">登录</span></a></h2>
                 </div>
             </div>
         </header>
