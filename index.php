@@ -1,7 +1,4 @@
 ﻿<?php
-include("../config/conn.php");
-include("../config/function.php");
-sesCheck();
 $type = "个人";
 //  if (substr($_SERVER["REMOTE_ADDR"],0,9)!="127.0.0.1"){
 //    if (strpos($_SERVER["HTTP_USER_AGENT"],"MicroMessenger")){
